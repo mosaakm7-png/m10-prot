@@ -1,37 +1,672 @@
 [
   {
-    "id": 1,
+    "id": 1, "category": "Cinematic", "title_ar": "بورتريه شارع غامض",
+    "prompt_en": "A cinematic black-and-white street portrait of a young man, standing still while people around him appear blurred from motion. Dark long coat, contemplative expression, 8k resolution.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=Cinematic+1"
+  },
+  {
+    "id": 2, "category": "Cinematic", "title_ar": "إضاءة استوديو حادة",
+    "prompt_en": "Professional studio portrait of a man, bold geometric shadows from diagonal light beams, high contrast, cinematic lighting, ultra-detailed face.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=Cinematic+2"
+  },
+  {
+    "id": 3, "category": "Cinematic", "title_ar": "نمط هايزنبرغ - نيون",
+    "prompt_en": "Cinematic portrait of a man sitting alone in a dimly lit bar at night, a neon sign saying 'Heisenberg' in red and blue in the background.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=Cinematic+3"
+  },
+  {
+    "id": 4, "category": "Cinematic", "title_ar": "لقطة المطر الاحترافية",
+    "prompt_en": "Close-up portrait of a young man in the rain, wearing a white baseball cap and over-ear headphones, blurred rainy street background, hyper-realistic water drops.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=Cinematic+4"
+  },
+  {
+    "id": 5, "category": "Sci-Fi", "title_ar": "رائد فضاء الغابة المضيئة",
+    "prompt_en": "Hyper-realistic photo of an astronaut walking in a bioluminescent tropical jungle at night, glowing neon plants, cinematic depth of field, 8k.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=Sci-Fi+1"
+  },
+  {
+    "id": 6, "category": "Sci-Fi", "title_ar": "درع الطاقة المتوهج",
+    "prompt_en": "Vertical shot of a warrior in rugged black armor with glowing blue power layers, blasting out of a city ground with massive explosive force.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=Sci-Fi+2"
+  },
+  {
+    "id": 7, "category": "Sci-Fi", "title_ar": "تعرض مزدوج - مدينة مدمرة",
+    "prompt_en": "Double exposure portrait of a man, inside his silhouette a post-apocalyptic city with burning streets and ruined buildings, dramatic sunset.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=Sci-Fi+3"
+  },
+  {
+    "id": 8, "category": "Artistic", "title_ar": "شخصية بيكسار 3D",
+    "prompt_en": "3D Pixar-style cute character sitting on a giant glowing letter, cyberpunk city background, cinematic lighting, 8k render, hyper-detailed.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=Artistic+1"
+  },
+  {
+    "id": 9, "category": "Artistic", "title_ar": "حامل القمر",
+    "prompt_en": "A man in a black turtleneck holding a glowing full moon in his hands, dark background, warm golden light illuminating his face, magical atmosphere.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=Artistic+2"
+  },
+  {
+    "id": 10, "category": "Artistic", "title_ar": "ساحر البلورة النارية",
+    "prompt_en": "Mysterious hooded wizard holding a glowing crystal ball filled with swirling fire, ancient library background, magic potion bottles.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=Artistic+3"
+  },
+  {
+    "id": 11, "category": "Logos", "title_ar": "غلاف مجلة UNLEASH",
+    "prompt_en": "Modern magazine cover design, portrait of a man in black leather jacket, white background with red paint streaks, bold stencil font title UNLEASH.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=Logo+1"
+  },
+  {
+    "id": 12, "category": "Logos", "title_ar": "تصميم علبة Action Figure",
+    "prompt_en": "Action figure packaging design of a modern traveler, olive jacket, cargo pants, camera accessories, cinematic product photography style.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=Logo+2"
+  },
+  {
+    "id": 13, "category": "Nature", "title_ar": "حقل زهور الساعة الذهبية",
+    "prompt_en": "Man standing in a field of vibrant wildflowers, snow-capped mountains in background, golden hour sunset lighting, cinematic 8k.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=Nature+1"
+  },
+  {
+    "id": 14, "category": "Nature", "title_ar": "غابة الضباب السحرية",
+    "prompt_en": "Ultra-realistic shot of a person walking through a misty pine forest, soft morning light beams breaking through trees, 8k resolution.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=Nature+2"
+  },
+  {
+    "id": 15, "category": "Cinematic", "title_ar": "بورتريه العرش الفاخر",
+    "prompt_en": "Man sitting on an ornate vintage throne chair, red velvet and gold carvings, dark suit, dramatic high contrast lighting, king style.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=Cinematic+5"
+  }
+  {
+    "id": 16,
     "category": "Cinematic",
-    "title": "بورتريه احترافي",
-    "prompt": "Cinematic street portrait, young man, motion blur background, long dark coat, 8k, high contrast. --v 6.0",
-    "img": "https://via.placeholder.com/500x300/1a237e/ffffff?text=M10+Cinematic"
+    "title_ar": "بورتريه الظلال المتقاطعة",
+    "prompt_en": "A dramatic close-up of a man's face partially hidden in deep shadows, sharp light hitting only one side, 8k cinematic photography, mystery vibe.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+16"
   },
   {
-    "id": 2,
+    "id": 17,
     "category": "Sci-Fi",
-    "title": "رائد فضاء مستقبلي",
-    "prompt": "Hyper-realistic photo of an astronaut walking in a bioluminescent tropical jungle at night, glowing plants, 8k. --v 6.0",
-    "img": "https://via.placeholder.com/500x300/1a237e/ffffff?text=M10+Sci-Fi"
+    "title_ar": "مدينة النيون العائمة",
+    "prompt_en": "A futuristic floating city above the clouds at sunset, flying vehicles with light trails, cyberpunk architecture, ultra-detailed 8k.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+17"
   },
   {
-    "id": 3,
+    "id": 18,
     "category": "Artistic",
-    "title": "شخصية 3D بيكسار",
-    "prompt": "3D Pixar-style cute character sitting on a giant glowing M letter, cyberpunk city background, cinematic lighting. --v 6.0",
-    "img": "https://via.placeholder.com/500x300/1a237e/ffffff?text=M10+Art"
+    "title_ar": "رسم زيتي كلاسيكي",
+    "prompt_en": "Classic oil painting of a noble man in the 18th century, rich textures, visible brushstrokes, museum quality, warm lighting.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+18"
   },
   {
-    "id": 4,
-    "category": "Logos",
-    "title": "تصميم غلاف مجلة",
-    "prompt": "Frontal portrait for a magazine cover, text UNLEASH in bold, man in black leather jacket, artistic red paint splashes. --v 6.0",
-    "img": "https://via.placeholder.com/500x300/1a237e/ffffff?text=M10+Magazine"
-  },
-  {
-    "id": 5,
+    "id": 19,
     "category": "Nature",
-    "title": "منظر طبيعي خلاب",
-    "prompt": "A peaceful mountain landscape with a crystal clear lake, sunset lighting, realistic 8k photography. --v 6.0",
-    "img": "https://via.placeholder.com/500x300/1a237e/ffffff?text=M10+Nature"
+    "title_ar": "شلالات الجنة المضيئة",
+    "prompt_en": "Giant waterfalls in a mystical land with blue glowing water, exotic birds flying around, lush green plants, fantasy environment.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+19"
+  },
+  {
+    "id": 20,
+    "category": "Logos",
+    "title_ar": "شعار فريق قيمنق",
+    "prompt_en": "Esports gaming logo, stylized eagle head with lightning, aggressive look, neon blue and silver colors, vector flat design.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+20"
+  },
+  {
+    "id": 21,
+    "category": "Cinematic",
+    "title_ar": "رجل في مقهى قديم",
+    "prompt_en": "Cinematic shot of a man reading a newspaper in a vintage 1950s cafe, steam rising from coffee cup, warm grainy film look.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+21"
+  },
+  {
+    "id": 22,
+    "category": "Sci-Fi",
+    "title_ar": "محارب الساموراي الآلي",
+    "prompt_en": "Cybernetic samurai in high-tech carbon fiber armor, glowing red katana, standing in a rainy Tokyo street at night.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+22"
+  },
+  {
+    "id": 23,
+    "category": "Artistic",
+    "title_ar": "تصميم أنيمي احترافي",
+    "prompt_en": "High-quality anime style illustration of a hero standing on a rooftop, wind blowing through hair, city lights in background, Makoto Shinkai style.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+23"
+  },
+  {
+    "id": 24,
+    "category": "Nature",
+    "title_ar": "صحراء الكواكب الملونة",
+    "prompt_en": "Landscape of an alien desert with purple sand and two giant moons in the sky, surreal atmosphere, vivid colors.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+24"
+  },
+  {
+    "id": 25,
+    "category": "Cinematic",
+    "title_ar": "لقطة الملاكم الدرامية",
+    "prompt_en": "Dramatic shot of a boxer in the ring, sweat fly off during a punch, intense lighting, smoke in the background, 8k realistic.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+25"
+  },
+  {
+    "id": 26,
+    "category": "Logos",
+    "title_ar": "شعار شركة طاقة",
+    "prompt_en": "Modern eco-energy company logo, leaf combined with a power plug, green and white minimalist design, clean lines.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+26"
+  },
+  {
+    "id": 27,
+    "category": "Sci-Fi",
+    "title_ar": "غرفة تحكم فضائية",
+    "prompt_en": "Interior of a spaceship cockpit, holographic displays, stars and galaxies visible through the glass window, futuristic tech.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+27"
+  },
+  {
+    "id": 28,
+    "category": "Artistic",
+    "title_ar": "تمثال رخامي رقمي",
+    "prompt_en": "Digital art of a classical marble statue wearing modern headphones and sunglasses, melting gold effect, vaporwave aesthetic.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+28"
+  },
+  {
+    "id": 29,
+    "category": "Nature",
+    "title_ar": "منظر الغروب الجليدي",
+    "prompt_en": "Panoramic view of an icy lake reflecting a pink and orange sunset, snow-covered pine trees, peaceful winter vibe.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+29"
+  },
+  {
+    "id": 30,
+    "category": "Cinematic",
+    "title_ar": "بورتريه عيون الصقر",
+    "prompt_en": "Extreme close-up of a human eye, reflecting a futuristic city in the pupil, hyper-detailed iris, macro photography.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+30"
+  },
+  {
+    "id": 31,
+    "category": "Sci-Fi",
+    "title_ar": "روبوت يقرأ كتاباً",
+    "prompt_en": "A sleek white robot sitting in an old library reading a dusty book, contrast between technology and history, soft lighting.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+31"
+  }
+  {
+    "id": 32,
+    "category": "Cinematic",
+    "title_ar": "بورتريه الرجل الغامض بالدخان",
+    "prompt_en": "Cinematic portrait of a man in a dark room, wisps of blue smoke swirling around him, dramatic low-key lighting, 8k sharp focus.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+32"
+  },
+  {
+    "id": 33,
+    "category": "Sci-Fi",
+    "title_ar": "بوابة السفر عبر الزمن",
+    "prompt_en": "A massive glowing portal in the middle of a desert, sparks of energy flying out, futuristic scientists standing nearby, cinematic wide shot.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+33"
+  },
+  {
+    "id": 34,
+    "category": "Artistic",
+    "title_ar": "رسم سكتش بالفحم",
+    "prompt_en": "Professional charcoal sketch portrait of a man, rough textures, artistic hand-drawn style on textured paper, high contrast black and white.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+34"
+  },
+  {
+    "id": 35,
+    "category": "Nature",
+    "title_ar": "طريق الغابة المتعرج",
+    "prompt_en": "Winding road through a vibrant autumn forest, orange and red leaves covering the ground, cinematic drone view, 8k resolution.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+35"
+  },
+  {
+    "id": 36,
+    "category": "Logos",
+    "title_ar": "شعار مطعم فاخر",
+    "prompt_en": "Minimalist luxury restaurant logo, a gold fork combined with a leaf shape, elegant black background, professional branding.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+36"
+  },
+  {
+    "id": 37,
+    "category": "Cinematic",
+    "title_ar": "شخصية الفايكنج القوي",
+    "prompt_en": "Hyper-realistic portrait of a Viking warrior, war paint on face, fur clothing, standing in a snowstorm, cinematic lighting, 8k.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+37"
+  },
+  {
+    "id": 38,
+    "category": "Sci-Fi",
+    "title_ar": "مدينة تحت الماء",
+    "prompt_en": "A futuristic city inside a giant glass dome under the ocean, whales swimming outside, glowing blue neon lights, cinematic 8k.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+38"
+  },
+  {
+    "id": 39,
+    "category": "Artistic",
+    "title_ar": "لوحة مائية للألوان المتناثرة",
+    "prompt_en": "Watercolor portrait of a man, face formed by colorful ink splashes, artistic white background, vibrant and creative style.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+39"
+  },
+  {
+    "id": 40,
+    "category": "Nature",
+    "title_ar": "جزيرة استوائية من السماء",
+    "prompt_en": "Aerial view of a heart-shaped tropical island, turquoise water, white sand, coral reefs visible under water, 8k photography.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+40"
+  },
+  {
+    "id": 41,
+    "category": "Cinematic",
+    "title_ar": "بورتريه رائد أعمال ناجح",
+    "prompt_en": "Portrait of a man in a modern office, city skyline visible through big windows, sunset light, professional cinematic look.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+41"
+  },
+  {
+    "id": 42,
+    "category": "Sci-Fi",
+    "title_ar": "دراجة نارية طائرة",
+    "prompt_en": "Futuristic hoverbike racing through a cyberpunk city tunnel, light trails, motion blur, hyper-detailed tech design.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+42"
+  },
+  {
+    "id": 43,
+    "category": "Artistic",
+    "title_ar": "تمثال منحوت من الضوء",
+    "prompt_en": "A human figure formed by glowing light particles in a dark void, cosmic energy, ethereal and spiritual art style.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+43"
+  },
+  {
+    "id": 44,
+    "category": "Nature",
+    "title_ar": "الكهف الجليدي المضيء",
+    "prompt_en": "Inside a massive ice cave with glowing blue crystal walls, northern lights visible through the entrance, 8k resolution.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+44"
+  },
+  {
+    "id": 45,
+    "category": "Logos",
+    "title_ar": "شعار تطبيق موسيقى",
+    "prompt_en": "Minimalist music app logo, a soundwave forming a heart shape, gradient colors, sleek modern design.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+45"
+  },
+  {
+    "id": 46,
+    "category": "Cinematic",
+    "title_ar": "رجل يواجه عاصفة رملية",
+    "prompt_en": "Cinematic shot of a traveler in the desert wearing a scarf over his face, massive dust storm approaching, dramatic lighting.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+46"
+  },
+  {
+    "id": 47,
+    "category": "Sci-Fi",
+    "title_ar": "المدينة المفقودة في الفضاء",
+    "prompt_en": "A giant space station shaped like a ring orbiting a purple planet, lights visible on the surface, 8k sci-fi art.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+47"
+  },
+  {
+    "id": 48,
+    "category": "Artistic",
+    "title_ar": "نمط الـ Cyber-Goth",
+    "prompt_en": "Portrait of a man in cyber-goth fashion, neon accessories, dark makeup, industrial background, futuristic edgy style.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+48"
+  },
+  {
+    "id": 49,
+    "category": "Nature",
+    "title_ar": "جسر الضباب الياباني",
+    "prompt_en": "Traditional Japanese wooden bridge in a zen garden, cherry blossoms, soft morning mist, peaceful cinematic 8k photography.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+49"
+  },
+  {
+    "id": 50,
+    "category": "Cinematic",
+    "title_ar": "المحقق في شوارع لندن",
+    "prompt_en": "Cinematic 1920s detective style, man with a hat and coat walking in a foggy London street at night, yellow street lights.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+50"
+  }
+  {
+    "id": 51,
+    "category": "Sci-Fi",
+    "title_ar": "المستشفى الطبي المستقبلي",
+    "prompt_en": "Futuristic medical bay inside a starship, robotic arms performing surgery, glowing blue screens, clean white aesthetic, sci-fi 8k.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+51"
+  },
+  {
+    "id": 52,
+    "category": "Artistic",
+    "title_ar": "بورتريه من أوراق الشجر",
+    "prompt_en": "Creative portrait of a face formed entirely by autumn leaves of different colors, artistic and detailed, nature-inspired art.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+52"
+  },
+  {
+    "id": 53,
+    "category": "Nature",
+    "title_ar": "البركان الثائر ليلاً",
+    "prompt_en": "Cinematic shot of a volcano erupting at night, flowing red lava, dark ash clouds, lightning in the sky, 8k realistic photography.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+53"
+  },
+  {
+    "id": 54,
+    "category": "Logos",
+    "title_ar": "شعار شركة طيران",
+    "prompt_en": "Modern airline logo design, minimalist wing shape forming a circle, blue and silver colors, sleek and professional.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+54"
+  },
+  {
+    "id": 55,
+    "category": "Cinematic",
+    "title_ar": "رجل يركض تحت المطر",
+    "prompt_en": "Dramatic cinematic shot of a man running through a dark alley in heavy rain, puddles reflecting city lights, motion blur, 8k.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+55"
+  },
+  {
+    "id": 56,
+    "category": "Sci-Fi",
+    "title_ar": "السوق الفضائي المزدحم",
+    "prompt_en": "Crowded futuristic market on an alien planet, different alien species, holographic signs, exotic fruits, vibrant colors.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+56"
+  },
+  {
+    "id": 57,
+    "category": "Artistic",
+    "title_ar": "لوحة فنية من الزجاج المكسور",
+    "prompt_en": "A face made of shattered glass pieces, reflections in every shard, artistic and symbolic, high contrast lighting.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+57"
+  },
+  {
+    "id": 58,
+    "category": "Nature",
+    "title_ar": "حقل القمح عند الفجر",
+    "prompt_en": "Golden wheat field at dawn, soft morning mist, sun rising over the horizon, peaceful and calm atmosphere, 8k.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+58"
+  },
+  {
+    "id": 59,
+    "category": "Cinematic",
+    "title_ar": "بورتريه القبطان القديم",
+    "prompt_en": "Close-up portrait of an old sea captain, weather-beaten face, wearing a hat, smoking a pipe, ocean in the background, cinematic.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+59"
+  },
+  {
+    "id": 60,
+    "category": "Sci-Fi",
+    "title_ar": "المصنع الآلي العملاق",
+    "prompt_en": "Inside a massive automated factory, robots assembling futuristic cars, sparks flying, industrial sci-fi aesthetic, 8k.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+60"
+  },
+  {
+    "id": 61,
+    "category": "Artistic",
+    "title_ar": "شخصية أنيمي في المطر",
+    "prompt_en": "Lofi anime style illustration, girl standing with an umbrella under neon lights in the rain, cozy and aesthetic atmosphere.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+61"
+  },
+  {
+    "id": 62,
+    "category": "Nature",
+    "title_ar": "جبال قوس قزح",
+    "prompt_en": "The rainbow mountains in Peru, vibrant natural colors, clear blue sky, cinematic landscape photography, 8k resolution.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+62"
+  },
+  {
+    "id": 63,
+    "category": "Logos",
+    "title_ar": "شعار شركة عقارات",
+    "prompt_en": "Modern real estate logo, house silhouette combined with a key, clean lines, professional gold and black colors.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+63"
+  },
+  {
+    "id": 64,
+    "category": "Cinematic",
+    "title_ar": "رجل في قطار ليلي",
+    "prompt_en": "Cinematic shot of a man looking out the window of a moving train at night, city lights reflecting on glass, moody lighting.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+64"
+  },
+  {
+    "id": 65,
+    "category": "Sci-Fi",
+    "title_ar": "الحطام الفضائي",
+    "prompt_en": "Abandoned spaceship floating in deep space, broken parts, glowing nebulas in background, cinematic sci-fi atmosphere.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+65"
+  },
+  {
+    "id": 66,
+    "category": "Artistic",
+    "title_ar": "رسم سريالي للساعة الذائبة",
+    "prompt_en": "Surrealist art of a melting clock over a tree branch, Salvador Dali style, dreamlike environment, vivid colors.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+66"
+  },
+  {
+    "id": 67,
+    "category": "Nature",
+    "title_ar": "النمر في الغابة",
+    "prompt_en": "Close-up of a tiger's face in the jungle, hidden behind leaves, intense eyes, realistic textures, cinematic lighting.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+67"
+  },
+  {
+    "id": 68,
+    "category": "Logos",
+    "title_ar": "شعار تطبيق صحة",
+    "prompt_en": "Minimalist health app logo, a heart shape forming a leaf, soft green and blue gradients, modern icon.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+68"
+  },
+  {
+    "id": 69,
+    "category": "Cinematic",
+    "title_ar": "بورتريه بطل ملاكمة",
+    "prompt_en": "Sweaty boxer in the ring after a fight, dramatic spotlight, smoke, intense expression, cinematic 8k photography.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+69"
+  },
+  {
+    "id": 70,
+    "category": "Sci-Fi",
+    "title_ar": "بدلة آلية ضخمة (Mech)",
+    "prompt_en": "Giant pilotable robot (Mech) standing in a futuristic hangar, sparks flying from welding, hyper-detailed mechanical parts.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+70"
+  }
+  {
+    "id": 71,
+    "category": "Artistic",
+    "title_ar": "رجل من الرمال المتطايرة",
+    "prompt_en": "Surreal portrait of a man's face disintegrating into sand particles blowing in the wind, desert background, artistic 8k.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+71"
+  },
+  {
+    "id": 72,
+    "category": "Nature",
+    "title_ar": "كهف الكريستال الوردي",
+    "prompt_en": "Inside a magical cave filled with giant glowing pink crystals, a small river of light flowing through, fantasy 8k photography.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+72"
+  },
+  {
+    "id": 73,
+    "category": "Cinematic",
+    "title_ar": "لقطة الغروب في الصحراء",
+    "prompt_en": "Wide cinematic shot of a lone rider on a horse during a deep red sunset in the Sahara, long shadows, epic atmosphere.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+73"
+  },
+  {
+    "id": 74,
+    "category": "Sci-Fi",
+    "title_ar": "مختبر الكائنات الفضائية",
+    "prompt_en": "High-tech sci-fi laboratory with mysterious creatures in glowing green glass tanks, futuristic lighting, detailed machinery.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+74"
+  },
+  {
+    "id": 75,
+    "category": "Logos",
+    "title_ar": "شعار شركة تصوير",
+    "prompt_en": "Creative photography logo, a camera lens combined with an eye iris, minimalist line art, professional black and silver.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+75"
+  },
+  {
+    "id": 76,
+    "category": "Artistic",
+    "title_ar": "بورتريه بنمط الفضاء والنجوم",
+    "prompt_en": "Portrait of a man whose skin is a galaxy filled with stars and nebulas, cosmic art style, ethereal and dreamlike.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+76"
+  },
+  {
+    "id": 77,
+    "category": "Nature",
+    "title_ar": "البحيرة المرآة",
+    "prompt_en": "A perfectly still lake reflecting a giant mountain range like a mirror, crystal clear water, 8k nature photography.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+77"
+  },
+  {
+    "id": 78,
+    "category": "Cinematic",
+    "title_ar": "رجل الغموض في القطار",
+    "prompt_en": "Moody cinematic shot of a man wearing a trench coat standing on a train station platform in the fog, yellow dim lights.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+78"
+  },
+  {
+    "id": 79,
+    "category": "Sci-Fi",
+    "title_ar": "البيت الذكي المستقبلي",
+    "prompt_en": "Interior design of a futuristic smart home, glass walls with holographic interfaces, minimalist furniture, view of a forest.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+79"
+  },
+  {
+    "id": 80,
+    "category": "Artistic",
+    "title_ar": "رسمة خربشة (Doodle) احترافية",
+    "prompt_en": "Highly detailed doodle art of a human head filled with tiny monsters and symbols, black and white, intricate patterns.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+80"
+  },
+  {
+    "id": 81,
+    "category": "Nature",
+    "title_ar": "طائر الفينيق المشتعل",
+    "prompt_en": "Hyper-realistic phoenix bird rising from ashes, feathers made of fire and embers, dark background, 8k cinematic art.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+81"
+  },
+  {
+    "id": 82,
+    "category": "Cinematic",
+    "title_ar": "رجل في مكتبة قديمة",
+    "prompt_en": "Cinematic shot of an old man holding a candle in a library with thousands of books, dust motes dancing in the light.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+82"
+  },
+  {
+    "id": 83,
+    "category": "Sci-Fi",
+    "title_ar": "المدينة المزدحمة بالروبوتات",
+    "prompt_en": "Futuristic city street where robots and humans walk together, neon signs in different languages, cyberpunk vibe, 8k.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+83"
+  },
+  {
+    "id": 84,
+    "category": "Artistic",
+    "title_ar": "رجل من ورق الشجر الجاف",
+    "prompt_en": "An artistic figure of a man sitting, made entirely from dried autumn leaves, ground covered in leaves, symbolic art.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+84"
+  },
+  {
+    "id": 85,
+    "category": "Logos",
+    "title_ar": "شعار شركة قهوة",
+    "prompt_en": "Minimalist coffee shop logo, a coffee bean forming a mountain peak, brown and cream colors, clean modern design.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+85"
+  },
+  {
+    "id": 86,
+    "category": "Nature",
+    "title_ar": "الكهف البحري المضيء",
+    "prompt_en": "Inside a sea cave with glowing blue plankton in the water, moon light reflecting on the surface, 8k realistic.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+86"
+  },
+  {
+    "id": 87,
+    "category": "Cinematic",
+    "title_ar": "بورتريه محارب الساموراي",
+    "prompt_en": "Dramatic portrait of a samurai in traditional armor, rainy weather, cherry blossoms falling, cinematic lighting, 8k.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+87"
+  },
+  {
+    "id": 88,
+    "category": "Sci-Fi",
+    "title_ar": "المصنع النووي المستقبلي",
+    "prompt_en": "Massive futuristic power plant with glowing green energy cores, steam pipes, industrial sci-fi look, ultra-detailed.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+88"
+  },
+  {
+    "id": 89,
+    "category": "Artistic",
+    "title_ar": "لوحة بوب آرت (Pop Art)",
+    "prompt_en": "Vibrant Pop Art portrait of a man, bold colors, dots and stripes pattern, Andy Warhol style, artistic and fun.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+89"
+  },
+  {
+    "id": 90,
+    "category": "Nature",
+    "title_ar": "طريق الغابة الجليدي",
+    "prompt_en": "A road passing through a snow-covered pine forest at blue hour, soft car light trails, peaceful winter scene, 8k.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+90"
+  },
+  {
+    "id": 91,
+    "category": "Logos",
+    "title_ar": "شعار شركة سفر",
+    "prompt_en": "Minimalist travel agency logo, a paper plane forming a globe line, blue and orange gradients, modern icon.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+91"
+  },
+  {
+    "id": 92,
+    "category": "Cinematic",
+    "title_ar": "رجل يراقب النجوم",
+    "prompt_en": "Cinematic shot of a man lying on the grass looking at a sky full of shooting stars and the Milky Way, 8k photography.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+92"
+  },
+  {
+    "id": 93,
+    "category": "Sci-Fi",
+    "title_ar": "مركبة فضائية تهبط",
+    "prompt_en": "Massive spaceship landing on a futuristic platform, thrusters firing, smoke and dust, cinematic sci-fi shot.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+93"
+  },
+  {
+    "id": 94,
+    "category": "Artistic",
+    "title_ar": "رسمة خيالية للتنين",
+    "prompt_en": "Epic fantasy art of a dragon perched on a mountain peak, breathing golden fire, dramatic clouds, hyper-detailed.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+94"
+  },
+  {
+    "id": 95,
+    "category": "Nature",
+    "title_ar": "حقل عباد الشمس",
+    "prompt_en": "Endless field of sunflowers facing the sun, bright yellow colors, clear blue sky, realistic 8k photography.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+95"
+  },
+  {
+    "id": 96,
+    "category": "Logos",
+    "title_ar": "شعار صالة ألعاب رياضية",
+    "prompt_en": "Bold fitness gym logo, a dumbbell combined with a lion head, aggressive and strong, black and silver design.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+96"
+  },
+  {
+    "id": 97,
+    "category": "Cinematic",
+    "title_ar": "بورتريه الرجل العجوز الحكيم",
+    "prompt_en": "Close-up portrait of an old wise man with a long white beard, deep wrinkles, kind eyes, cinematic soft lighting.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+97"
+  },
+  {
+    "id": 98,
+    "category": "Sci-Fi",
+    "title_ar": "المكتبة الرقمية",
+    "prompt_en": "A person wearing VR glasses standing in a room made of data and light codes, futuristic digital library, 8k sci-fi.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+98"
+  },
+  {
+    "id": 99,
+    "category": "Artistic",
+    "title_ar": "لوحة تجريدية للألوان",
+    "prompt_en": "Abstract expressionist painting, thick layers of colorful paint, energetic brushstrokes, modern art gallery style.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+99"
+  },
+  {
+    "id": 100,
+    "category": "Nature",
+    "title_ar": "اكتمال القمر فوق المحيط",
+    "prompt_en": "Large full moon hanging over a calm ocean, moonlight path reflecting on waves, peaceful night scene, 8k realistic.",
+    "image_url": "https://via.placeholder.com/600x400/05070a/4fc3f7?text=M10+100"
   }
 ]
