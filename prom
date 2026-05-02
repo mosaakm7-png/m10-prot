@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "category": "Cinematic",
+    "title": "بورتريه احترافي",
+    "prompt": "Cinematic street portrait, young man, motion blur background, long dark coat, 8k, high contrast. --v 6.0",
+    "img": "https://via.placeholder.com/500x300/1a237e/ffffff?text=M10+Cinematic"
+  },
+  {
+    "id": 2,
+    "category": "Sci-Fi",
+    "title": "رائد فضاء مستقبلي",
+    "prompt": "Hyper-realistic photo of an astronaut walking in a bioluminescent tropical jungle at night, glowing plants, 8k. --v 6.0",
+    "img": "https://via.placeholder.com/500x300/1a237e/ffffff?text=M10+Sci-Fi"
+  },
+  {
+    "id": 3,
+    "category": "Artistic",
+    "title": "شخصية 3D بيكسار",
+    "prompt": "3D Pixar-style cute character sitting on a giant glowing M letter, cyberpunk city background, cinematic lighting. --v 6.0",
+    "img": "https://via.placeholder.com/500x300/1a237e/ffffff?text=M10+Art"
+  },
+  {
+    "id": 4,
+    "category": "Logos",
+    "title": "تصميم غلاف مجلة",
+    "prompt": "Frontal portrait for a magazine cover, text UNLEASH in bold, man in black leather jacket, artistic red paint splashes. --v 6.0",
+    "img": "https://via.placeholder.com/500x300/1a237e/ffffff?text=M10+Magazine"
+  },
+  {
+    "id": 5,
+    "category": "Nature",
+    "title": "منظر طبيعي خلاب",
+    "prompt": "A peaceful mountain landscape with a crystal clear lake, sunset lighting, realistic 8k photography. --v 6.0",
+    "img": "https://via.placeholder.com/500x300/1a237e/ffffff?text=M10+Nature"
+  }
+]
